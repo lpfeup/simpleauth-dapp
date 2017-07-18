@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Authentication System</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <span id="status"></span>
+  <br>
+  <h1>Login</h1>
+  <br><label for="login_email">Email</label><input id="login_email" name="email" type="email" required placeholder="ethereum@example.com">
+  <br><label for="login_password">Password</label><input id="login_password" name="password" type="password" required AUTOCOMPLETE="off" minlength="8" placeholder="********">
+  <br><br><button onclick="App.login()">Login</button>
+  <br><br>
+  <br>
+  <h1>Register</h1>
+  <br><label for="register_email">Email</label><input id="register_email" name="email" type="email" required placeholder="ethereum@example.com">
+  <br><label for="register_password">Password</label><input id="register_password" name="password" type="password" required AUTOCOMPLETE="off" minlength="8" placeholder="********">
+  <br><br><button onclick="App.register()">Register</button>
+  <br><br>
+</body>
+</html>
